@@ -1,0 +1,31 @@
+import java.sql.SQLOutput;
+import java.util.*;
+public class question4 {
+
+
+
+    static void swap(int a,int b){
+        a=a+b;
+        b=a-b;
+        a=a-b;
+
+        System.out.println("The First Numbr is "+a);
+        System.out.println("The Second Number is:"+b);
+    }
+
+
+
+
+
+    public static void main(String[] args){
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter First Number: ");
+        int n=sc.nextInt();
+        System.out.print("Enter The Second Number: ");
+        int n2=sc.nextInt();
+        
+        swap(n,n2);
+
+    }
+}
